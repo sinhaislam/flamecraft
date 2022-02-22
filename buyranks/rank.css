@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://cdn.discordapp.com/attachments/907664790263066655/907944830993330196/2021-11-10_16.31.15.png);
+}
+.maincard {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.cardone {
+  background-color: rgba(255, 206, 69, 0.7);
+  width: 29.5rem;
+  border-radius: 1rem;
+  height: 30rem;
+  font-size: 1.4rem;
+  transition: 250ms transform ease-in-out;
+  margin-left: 0px;
+}
+.cardone:hover {
+  transform: scale(1.02);
+  background-color: hsla(44, 100%, 69%, 0.7);
+}
+.cardtwo:hover {
+  transform: scale(1.02);
+  background-color: hsla(222, 96%, 85%, 0.7);
+}
+.cardthree:hover {
+  transform: scale(1.02);
+  background-color: hsla(222, 96%, 85%, 0.7);
+}
+.cho,
+.cpo {
+  text-align: center;
+}
+.cpo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+.cho {
+  font-family: "Yuji Syuku", serif;
+}
+li {
+  font-family: "Roboto", sans-serif;
+  list-style: radial-gradient(red 50%, #ffce45 50%);
+  list-style-type: circle;
+}
+.btn {
+  background-color: #e5890a;
+  border: black 1px solid;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+  width: 15rem;
+  font-size: 1.8rem;
+  border-radius: 10px;
+}
+.btn:hover,
+.btn:focus {
+  background-color: hsl(35, 92%, 70%);
+}
+.btnthree {
+  background-color: hsl(35, 92%, 47%);
+  border: black 1px solid;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  margin-top: -10px;
+  width: 15rem;
+  font-size: 1.8rem;
+  border-radius: 10px;
+}
+.btnthree:hover,
+.btnthree:focus {
+  background-color: hsl(35, 92%, 70%);
+}
+
+.cardtwo {
+  background-color: rgba(148, 179, 253, 0.7);
+  width: 29.5rem;
+  border-radius: 1rem;
+  height: 30rem;
+  font-size: 1.4rem;
+  transition: 250ms transform ease-in-out;
+}
+.cardthree {
+  background-color: rgb(153, 254, 255, 0.5);
+  width: 29.5rem;
+  border-radius: 1rem;
+  height: 30rem;
+  font-size: 1.4rem;
+  transition: 250ms transform ease-in-out;
+}
+@media screen and (max-width: 600px) {
+  .maincard {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .maincard {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: auto;
+    width: fit-content;
+  }
+}
+img {
+  margin: auto;
+
+  width: 280px;
+  height: 100px;
+  justify-content: center;
+  display: flex;
+}

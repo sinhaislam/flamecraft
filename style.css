@@ -1,0 +1,222 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 100vw;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  background-position: center;
+  overflow-x: hidden;
+  background-image: url(https://cdn.discordapp.com/attachments/907664790263066655/907944790665084968/2021-11-10_16.41.42.png);
+}
+header {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 99.8vw;
+  top: 0;
+  left: 0;
+  border: 1px solid orange;
+  z-index: 1;
+}
+header ul {
+  list-style-type: none;
+  position: relative;
+  display: flex;
+  letter-spacing: 2px;
+  gap: 190px;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+}
+header ul li {
+  position: relative;
+  background: linear-gradient(30deg, orange 50%, white 50%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.headerone {
+  color: white;
+  font-size: 3.052rem;
+  display: flex;
+  justify-content: center;
+  -webkit-text-stroke: px;
+  margin-top: 90px;
+  filter: drop-shadow(black 10px 10px 10px);
+}
+.flame {
+  color: orange;
+  display: inline-flex;
+  gap: 0;
+}
+#login {
+  margin-right: 90px;
+}
+.pone {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(74deg, orange 50%, white 30%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.btn {
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: 2px solid white;
+  display: flex;
+  padding: 6px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  cursor: help;
+}
+.btn:hover,
+.btn:focus {
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid black;
+  color: white;
+}
+.ip,
+button:focus .clicktxt {
+  display: none;
+}
+button:focus .ip {
+  display: block;
+  color: orange;
+}
+@media screen and (max-width: 768px) {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(https://cdn.discordapp.com/attachments/907664790263066655/907944795421425704/2021-11-10_16.47.04.png);
+  }
+  .pone {
+    display: flex;
+    justify-content: center;
+    color: orangered;
+    font-size: 1.5rem;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+    font-weight: bolder;
+  }
+  button:focus .ip {
+    display: block;
+    color: orangered;
+  }
+  .flexb {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  .headerone {
+    color: white;
+    font-size: 3.052rem;
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke: px;
+    margin-top: 250px;
+    filter: drop-shadow(black 10px 10px 10px);
+  }
+  header ul {
+    flex-direction: column;
+    gap: 0;
+    margin-left: -30px;
+  }
+  header {
+    width: 100%;
+  }
+  #login {
+    margin: 0;
+  }
+}
+.flexb {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  gap: 50px;
+}
+.buyr {
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: 2px solid white;
+  display: flex;
+  padding: 6px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.buyrr {
+  text-decoration: none;
+  color: black;
+}
+.Discord {
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: 2px solid white;
+  display: flex;
+  padding: 6px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+}
+.discord {
+  text-decoration: none;
+  color: black;
+}
+
+.Picass {
+  width: 10rem;
+  height: 12rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  filter: drop-shadow(10px 10px 10px);
+  animation: picass 10s infinite;
+}
+
+@keyframes picass {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  20% {
+    transform: rotateZ(180deg);
+  }
+  50% {
+    transform: rotateZ(-180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+}

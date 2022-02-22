@@ -1,0 +1,229 @@
+html {
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  width: 100vw;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  background-position: center;
+  overflow-x: hidden;
+  background-image: url(https://cdn.discordapp.com/attachments/907664790263066655/907944790665084968/2021-11-10_16.41.42.png);
+}
+header {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 99.8vw;
+  top: 0;
+  left: 0;
+  border: 1px solid orange;
+  z-index: 1;
+}
+header ul {
+  list-style-type: none;
+  position: relative;
+  display: flex;
+  letter-spacing: 2px;
+  gap: 190px;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+}
+header ul li {
+  position: relative;
+  background: linear-gradient(30deg, orange 50%, white 50%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  font-size: 3.056rem;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(90deg, white 50.75%, orange 50%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#login {
+  margin-right: 90px;
+}
+.loginb {
+  width: 500px;
+  height: 260px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 166, 0, 0.9) 50%,
+    rgba(255, 255, 255, 0.9) 50%
+  );
+  margin: auto;
+}
+label {
+  display: block;
+  background: linear-gradient(90deg, white 50%, orange 50%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+form {
+  font-size: 30px;
+}
+input {
+  width: 300px;
+  height: 25px;
+  background: linear-gradient(90deg, white 50%, orange 50%);
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+.Forgot {
+  font-size: 15px;
+  display: block;
+  text-decoration: none;
+  margin-right: 250px;
+  margin-top: 20px;
+}
+.logins {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  width: 100px;
+  height: 25px;
+  font-size: 15px;
+  margin-top: 10px;
+  background: hsla(130, 100%, 50%, 0);
+  border-radius: 5px;
+  border: 0.5px solid black;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.logins:hover,
+.logins:focus {
+  background: hsl(199, 100%, 80%);
+}
+.signup {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  width: 350px;
+  height: 25px;
+  font-size: 15px;
+  margin-top: 10px;
+  background: hsla(130, 100%, 50%, 0);
+  border-radius: 5px;
+  border: 0.5px solid black;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.signup:hover,
+.signup:focus {
+  background: hsl(246, 100%, 70%);
+}
+/*Mobile*/
+@media screen and (max-width: 768px) {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(https://cdn.discordapp.com/attachments/907664790263066655/907944795421425704/2021-11-10_16.47.04.png);
+  }
+  header ul {
+    flex-direction: column;
+    gap: 0;
+    margin-left: -30px;
+  }
+  header {
+    width: 100%;
+  }
+  #login {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(https://cdn.discordapp.com/attachments/907664790263066655/907944795421425704/2021-11-10_16.47.04.png);
+  }
+  header ul {
+    flex-direction: column;
+    gap: 0;
+    margin-left: -30px;
+  }
+  header {
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  #login {
+    margin: 0;
+  }
+  .loginb {
+    width: 100vw;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    left: 0;
+  }
+  .head {
+    font-size: 2rem;
+    position: relative;
+    padding: 0;
+    left: 0;
+    
+  }
+  .signup {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 280px;
+    height: 25px;
+    font-size: 15px;
+    margin-top: 10px;
+    background: hsla(130, 100%, 50%, 0);
+    border-radius: 5px;
+    border: 0.5px solid black;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    padding: 0;
+    left: 0;
+  }
+  .Forgot {
+    font-size: 15px;
+    display: block;
+    position: relative;
+    padding: 0;
+    left: 0;
+    text-decoration: none;
+    margin-right: 250px;
+    margin-top: 20px;
+  }
+}
